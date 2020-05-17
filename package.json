@@ -10,6 +10,7 @@
     "react-dom": "^16.13.1"
   },
   "scripts": {
+    "build": "webpack",
     "start": "webpack-dev-server --mode development --open"
   },
   "devDependencies": {

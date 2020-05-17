@@ -7,6 +7,7 @@ module.exports = {
         filename: './dist/main.js',
         path: path.resolve(__dirname, 'dist')
     },
+    target: "node",
     plugins: [new HtmlWebpackPlugin({
         template: path.resolve(__dirname,'public/index.html')
     })],
