@@ -1,4 +1,5 @@
-import * as React from 'react';
+import React from "react";
+
 
 const Counter: React.FC = () => {
   const [counter, setCounter] = React.useState(0)
